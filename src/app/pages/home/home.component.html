@@ -2,7 +2,14 @@
 <div class="container my-4">
   <div class="articles row">
     <div class="col-md-5 articles__main">
-      <app-big-card></app-big-card>
+      <app-big-card
+      photoCover="https://i.ytimg.com/vi/WglKZ3d1__I/maxresdefault.jpg"
+      cardTitle="Plastation lança novo jogo do Homem de Ferro"
+      cardDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Quo reiciendis velit maiores quisquam reprehenderit mollitia,
+      repellendus cumque maxime quasi! Laborum obcaecati ipsum eaque exercitationem commodi,
+      amet magni aspernatur aut necessitatibus?"
+      ></app-big-card>
     </div>
     <div class="col-md-7 articles_others d-flex flex-column justify-content-between">
       <app-small-card></app-small-card>
@@ -11,3 +18,7 @@
     </div>
   </div>
 </div>
+
+<ul>
+  <li *ngFor="let item of noticias | async"></li>
+</ul>

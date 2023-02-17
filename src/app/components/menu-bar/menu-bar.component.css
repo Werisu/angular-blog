@@ -1,3 +1,9 @@
 .circle::after {
   content: "•" !important;
 }
+li .nav-link {
+  color: #FFF !important;
+}
+li:hover > a {
+  color: gray !important;
+}

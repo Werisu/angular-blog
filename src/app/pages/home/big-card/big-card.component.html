@@ -1,7 +1,7 @@
 <div class="card container__big-card">
   <div class="big-card__photo">
     <img class="bd-placeholder-img card-img-top"
-      src="https://i.ytimg.com/vi/WglKZ3d1__I/maxresdefault.jpg"
+      [src]="photoCover"
       alt="">
   </div>
 
@@ -11,14 +11,11 @@
     </div>
 
     <div class="card-title big-card__title">
-      <h5>Saiu a nova versão do Angular</h5>
+      <h5>{{ cardTitle }}</h5>
     </div>
 
     <div class="card-text big-card__description">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Quo reiciendis velit maiores quisquam reprehenderit mollitia,
-        repellendus cumque maxime quasi! Laborum obcaecati ipsum eaque exercitationem commodi,
-        amet magni aspernatur aut necessitatibus?</p>
+      <p>{{ cardDescription }}</p>
     </div>
   </div>
 </div>
