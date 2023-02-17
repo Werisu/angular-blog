@@ -1,0 +1,13 @@
+.container__menu-title{
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+.container__menu-title > h1{
+  font-size: 9em;
+  font-family: 'segoe UI';
+  text-transform: uppercase;
+}
+.container__menu-title > hr {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
