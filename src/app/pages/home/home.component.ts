@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  public noticias = this.newsService.getAll();
-
-  constructor(private newsService: NewsService) {}
+  constructor() {}
 
   ngOnInit(): void {
 
