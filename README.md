@@ -1,10 +1,10 @@
 # AngularBlog
 
-Esse é um projeto de blog criado com Angular 15, usando componentes como title, big-card, small-card e menu. Os dados são obtidos de forma dinâmica a partir de um array de objetos chamado "dataFake".
+Este projeto de blog foi criado utilizando Angular 15 e sua arquitetura de componentes, incluindo Title, BigCard, SmallCard e Menu. A obtenção de dados é feita dinamicamente a partir de um array de objetos denominado DataFake.
 
-Na página inicial do blog, o conteúdo é apresentado dinamicamente usando o ngFor, passando os dados para os componentes para renderização na tela. Cada card possui um link no título que, ao ser clicado, direciona para a página de conteúdo, passando o ID do conteúdo como parâmetro para renderizar o conteúdo específico daquele ID.
+A página inicial do blog é dinamicamente renderizada por meio do uso do ngFor, que percorre os dados e os passa para os componentes a fim de que sejam apresentados na tela. O título de cada card possui um link que, ao ser clicado, direciona o usuário para a página de conteúdo, passando o ID do conteúdo como parâmetro para que sejam exibidas as informações específicas daquele ID.
 
-Para destacar, foi criada uma animação para simular o efeito de uma máquina de escrever para exibir um texto de forma animada. Essa animação é dinâmica e foi desenvolvida na classe "Typewriter".
+Para proporcionar um efeito diferenciado ao projeto, foi desenvolvida uma animação que simula uma máquina de escrever, apresentando um texto de forma animada. Essa animação é dinâmica e foi implementada por meio da classe Typewriter.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
