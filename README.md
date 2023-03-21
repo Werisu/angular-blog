@@ -1,6 +1,34 @@
 # AngularBlog
 
+Esse é um projeto de blog criado com Angular 15, usando componentes como title, big-card, small-card e menu. Os dados são obtidos de forma dinâmica a partir de um array de objetos chamado "dataFake".
+
+Na página inicial do blog, o conteúdo é apresentado dinamicamente usando o ngFor, passando os dados para os componentes para renderização na tela. Cada card possui um link no título que, ao ser clicado, direciona para a página de conteúdo, passando o ID do conteúdo como parâmetro para renderizar o conteúdo específico daquele ID.
+
+Para destacar, foi criada uma animação para simular o efeito de uma máquina de escrever para exibir um texto de forma animada. Essa animação é dinâmica e foi desenvolvida na classe "Typewriter".
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+
+## Como executar o projeto
+
+1. Clone o repositório do projeto
+2. Execute o comando `npm install` para instalar as dependências do projeto
+3. Execute o comando `ng serve` para iniciar o servidor local
+4. Acesse `http://localhost:4200` no seu navegador para visualizar o projeto
+
+## Tecnologias utilizadas
+
+* Angular 15
+* HTML
+* CSS
+* TypeScript
+
+## Autor
+
+* Wellysson Nascimento Rocha
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para mais detalhes.
 
 ## Development server
 
