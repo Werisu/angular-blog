@@ -1,1 +1,8 @@
-
+.pohto__cover{
+  width: 200px;
+  height: 100px;
+  background-size: cover;
+}
+.card-title > a{
+  color: #FFF;
+}

@@ -1,13 +1,12 @@
 <div class="card container__big-card">
   <div class="row g-0">
     <div class="col-md-3 big-card__photo d-flex align-items-center">
-      <img src="https://midias.correiobraziliense.com.br/_midias/png/2022/04/28/675x450/1_pasted_image_0__9_-7861208.png?20220428114714?20220428114714" class="img-fluid rounded-start" alt="...">
+      <div class="pohto__cover" style="background-image: url({{photoCover}});"></div>
     </div>
     <div class="col-md-9">
       <div class="card-body">
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title"><a [routerLink]="['content', id]" >{{ cardTitle }}</a></h5>
       </div>
     </div>
   </div>

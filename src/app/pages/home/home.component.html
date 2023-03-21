@@ -9,12 +9,11 @@
       Quo reiciendis velit maiores quisquam reprehenderit mollitia,
       repellendus cumque maxime quasi! Laborum obcaecati ipsum eaque exercitationem commodi,
       amet magni aspernatur aut necessitatibus?"
+      [id]="1"
       ></app-big-card>
     </div>
     <div class="col-md-7 articles_others d-flex flex-column justify-content-between">
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
+      <app-small-card *ngFor="let dado of dados" [cardTitle]="dado.title" [photoCover]="dado.photoCover" [id]="dado.id"></app-small-card>
     </div>
   </div>
 </div>
